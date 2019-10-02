@@ -19,9 +19,9 @@
             android:id="@+id/imageView3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/login" />
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/login" />
 
         <EditText
             android:id="@+id/editText1"
