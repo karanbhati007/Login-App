@@ -50,7 +50,6 @@
         <Button
             android:id="@+id/button1"
             android:layout_width="100dp"
-            android:onClick="action"
             android:layout_height="wrap_content"
             android:layout_below="@id/editText2"
             android:layout_centerHorizontal="true"
@@ -68,7 +67,6 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@android:color/background_light"
-            android:onClick="change"
             android:text="or, Sign Up"
             android:textColor="#3B70B3" />
 
