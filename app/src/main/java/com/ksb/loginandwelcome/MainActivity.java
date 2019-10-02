@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void action()
-    {
+    {                       //For Login
+
         if(status==1)
            but1.setOnClickListener(new View.OnClickListener() {
                @Override
@@ -69,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
                }
            });
         else {
+
+            //For Sign Up
+
             but1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -135,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
 
         but2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view) {                //To Switch between SignUp and Login
 
                 if(status==1) {
                     but1.setText("SIGN UP");
